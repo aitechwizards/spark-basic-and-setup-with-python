@@ -1,0 +1,9 @@
+$ docker run -d -p 8888:8888 -v $PWD:/home/jovyan/work --name spark jupyter/pyspark-notebook$ docker run -d -p 8888:8888 -v $PWD:/home/jovyan/work --name spark jupyter/pyspark-notebook
+
+C:\Users\S727953\Desktop\MLProjectProcess\DocerkSpar\mydict
+
+docker build  -t bharat/pyspark-notebook .
+
+$ docker run -d -p 8888:8888 -v C:\Users\S727953\Desktop\MLProjectProcess\DocerkSpar\mydict --name spark bharat/pyspark-notebook
+
+0f02cf07e0347bf03b156b7756c8752d74a10448d586d757ee4a9c15a82d2d4d
